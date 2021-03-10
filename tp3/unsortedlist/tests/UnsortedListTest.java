@@ -1,4 +1,4 @@
-package datastruct;
+
 
 import static org.junit.Assert.*;
 
@@ -6,7 +6,11 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-public class MyUnsortedListTest {
+import datastruct.MyUnsortedList;
+import datastruct.UnsortedList;
+import datastruct.EmptyListException;
+
+public class UnsortedListTest {
 	protected UnsortedList list;
 	protected UnsortedList expected;
 	
